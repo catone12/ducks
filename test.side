@@ -1,0 +1,461 @@
+{
+  "id": "2e9cb55b-6e16-4ff6-9b6b-0c8bb62946a5",
+  "version": "2.0",
+  "name": "eshop",
+  "url": "https://open-eshop.stqa.ru/oc-panel/Coupon?name=Recohjkl",
+  "tests": [{
+    "id": "1fe32769-87bb-4e3b-9c89-27e3b7e0c853",
+    "name": "1",
+    "commands": [{
+      "id": "221d4804-eaed-4730-be2d-c19b21a39557",
+      "comment": "",
+      "command": "open",
+      "target": "https://open-eshop.stqa.ru/oc-panel",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0956319e-8411-47c0-8fa5-e42a80f940c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1018x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00068cac-2b04-42b1-be7c-f15b7597a8b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=eShop",
+      "targets": [
+        ["linkText=eShop", "linkText"],
+        ["css=.panel:nth-child(1) > .panel-heading a", "css:finder"],
+        ["xpath=//div[@id='accordion']/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#collapseOne')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,' eShop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbba264d-625c-4fe8-82f4-730568345a88",
+      "comment": "",
+      "command": "click",
+      "target": "css=#collapseOne tr:nth-child(4) .side-name-link",
+      "targets": [
+        ["css=#collapseOne tr:nth-child(4) .side-name-link", "css:finder"],
+        ["xpath=//div[@id='collapseOne']/div/table/tbody/tr[4]/td/li/a/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Coupons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9989ea9-3188-45a0-8c4d-2e0e2cd8f5a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#collapseOne tr:nth-child(4) .side-name-link",
+      "targets": [
+        ["css=#collapseOne tr:nth-child(4) .side-name-link", "css:finder"],
+        ["xpath=//div[@id='collapseOne']/div/table/tbody/tr[4]/td/li/a/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Coupons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ecbe735-a246-4728-92fb-59dbcb4bd740",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active > li .side-name-link",
+      "targets": [
+        ["css=.active > li .side-name-link", "css:finder"],
+        ["xpath=//div[@id='collapseOne']/div/table/tbody/tr[4]/td/li/a/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Coupons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9240c11-70e5-4d21-b6fc-3eded2d66079",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pull-right:nth-child(2)",
+      "targets": [
+        ["css=.pull-right:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://open-eshop.stqa.ru/oc-panel/Coupon/create')]", "xpath:href"],
+        ["xpath=//body/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e885ea1c-a01a-4d83-9c9a-f3c1dc88698d",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ffdfd2b-285b-4b90-8fcd-d46d7a7e5c5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Recohjkl"
+    }, {
+      "id": "67194076-72f1-48d5-aa1e-398fc807fed0",
+      "comment": "",
+      "command": "click",
+      "target": "name=valid_date",
+      "targets": [
+        ["name=valid_date", "name"],
+        ["css=.form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='valid_date']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c7c1e40-efda-4c88-a436-8b939a7c9713",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19d02bf6-489d-4ee8-8dc0-b16563bc6892",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=valid_date",
+      "targets": [
+        ["name=valid_date", "name"],
+        ["css=.form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='valid_date']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abfa11ca-d7fa-4c21-9cc1-0c3d413061ae",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.datepicker-days .prev",
+      "targets": [
+        ["css=.datepicker-days .prev", "css:finder"],
+        ["xpath=//th", "xpath:position"],
+        ["xpath=//th[contains(.,'‹')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c01a3d-977f-49d9-b313-b1bc0453da10",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.datepicker-days .prev",
+      "targets": [
+        ["css=.datepicker-days .prev", "css:finder"],
+        ["xpath=//th", "xpath:position"],
+        ["xpath=//th[contains(.,'‹')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3fb7738-9555-483c-bd5a-9c1bf643abd9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=tr:nth-child(3) > .day:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(3) > .day:nth-child(1)", "css:finder"],
+        ["xpath=//div[5]/div/table/tbody/tr[3]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba41aed-c543-4861-864d-b6f0958fac48",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.row:nth-child(4)",
+      "targets": [
+        ["css=.row:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad1450c-742a-4596-9e0c-87b13f67210a",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c323e36-67df-4e9b-9714-4370596ebe31",
+      "comment": "",
+      "command": "click",
+      "target": "id=number_coupons",
+      "targets": [
+        ["id=number_coupons", "id"],
+        ["name=number_coupons", "name"],
+        ["css=#number_coupons", "css:finder"],
+        ["xpath=//input[@id='number_coupons']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aa06ada-51b6-4d6e-ac7d-7c75ef2bcf02",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=number_coupons",
+      "targets": [
+        ["id=number_coupons", "id"],
+        ["name=number_coupons", "name"],
+        ["css=#number_coupons", "css:finder"],
+        ["xpath=//input[@id='number_coupons']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "23,25.90625"
+    }, {
+      "id": "a7fb3828-52f3-4894-88d2-c9f70a42eb9d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=number_coupons",
+      "targets": [
+        ["id=number_coupons", "id"],
+        ["name=number_coupons", "name"],
+        ["css=#number_coupons", "css:finder"],
+        ["xpath=//input[@id='number_coupons']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "23,25.90625"
+    }, {
+      "id": "899eebed-97aa-40be-a822-4c0e30d9d9c1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=number_coupons",
+      "targets": [
+        ["id=number_coupons", "id"],
+        ["name=number_coupons", "name"],
+        ["css=#number_coupons", "css:finder"],
+        ["xpath=//input[@id='number_coupons']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "23,25.90625"
+    }, {
+      "id": "aa1326a3-180d-4093-a2c6-73eb55b07dc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=number_coupons",
+      "targets": [
+        ["id=number_coupons", "id"],
+        ["name=number_coupons", "name"],
+        ["css=#number_coupons", "css:finder"],
+        ["xpath=//input[@id='number_coupons']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd631820-34b7-417e-9829-490f076f9a80",
+      "comment": "",
+      "command": "type",
+      "target": "id=number_coupons",
+      "targets": [
+        ["id=number_coupons", "id"],
+        ["name=number_coupons", "name"],
+        ["css=#number_coupons", "css:finder"],
+        ["xpath=//input[@id='number_coupons']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "6923ee2b-b31c-4624-b064-694efe7df71f",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/form/div[7]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78813ba2-4aa1-47c7-a28a-51c8fe743046",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4675cdf-8942-4341-8c19-1b649a514b4b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div[2]/div[4]/div/div/table/tbody/tr[1]/td",
+      "targets": [
+        ["css=#tr6753 > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[@id='tr6753']/td", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/div/div/table/tbody/tr[3]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'ojc')]", "xpath:innerText"]
+      ],
+      "value": "Recohjkl"
+    }, {
+      "id": "e78cc391-eac6-4dab-bcfb-3ee8ac109f21",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b2d597e-71bd-405d-a02a-d0e2d01c5dbf",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Recohjkl"
+    }, {
+      "id": "829ae67d-5e6e-48a5-a963-a07d8b9cc423",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-inline > .btn",
+      "targets": [
+        ["css=.form-inline > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2048e30-d790-4586-927b-e9273ace5fe8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-trash",
+      "targets": [
+        ["css=.glyphicon-trash", "css:finder"],
+        ["xpath=//tr[@id='tr7010']/td[7]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//td[7]/a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32dd36a9-0dd8-44b1-88ec-7607148a5530",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c7a241e-900b-4aae-a00a-f3227ed56b8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm",
+      "targets": [
+        ["css=.confirm", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Yes, definitely!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b25939a-add7-44b3-af16-800bd3554970",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c3c6876-fe58-4170-b851-7678ec6d2be6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coupon",
+      "targets": [
+        ["linkText=Coupon", "linkText"],
+        ["css=.breadcrumb > li:nth-child(2) > .ajax-load", "css:finder"],
+        ["xpath=//a[contains(text(),'Coupon')]", "xpath:link"],
+        ["xpath=//div[@id='content']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://open-eshop.stqa.ru/oc-panel/Coupon')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d62b8a5e-1593-4441-b4a8-d9ebc49f3f22",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div[2]/div[4]/div/div/table/tbody/tr[1]/td",
+      "targets": [
+        ["css=#tr6754 > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[@id='tr6754']/td", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/table/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'2kf13t')]", "xpath:innerText"]
+      ],
+      "value": "2kf13t"
+    }]
+  }, {
+    "id": "1253a9ed-9cc5-4e38-bcd7-0b9ab2953205",
+    "name": "тест проверка наличия и отсутствия элемента",
+    "commands": [{
+      "id": "9012b923-d54f-4f88-98df-df6122404685",
+      "comment": "",
+      "command": "open",
+      "target": "https://open-eshop.stqa.ru/oc-panel/Coupon?name=Recohjkl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb7176af-d93f-449f-87ac-3432efa0e233",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1018x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49fe92d1-ba26-4573-b714-0699f8fd62ad",
+      "comment": "",
+      "command": "assertValue",
+      "target": "xpath=//td[contains(.,'Recohjkl')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af9d29cc-b82c-40c1-8259-1efe88b2fb43",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=#tr7014 > td:nth-child(1)",
+      "targets": [
+        ["css=#tr7014 > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[@id='tr7014']/td", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/table/tbody/tr/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Recohjkl')]", "xpath:innerText"]
+      ],
+      "value": "Recohjkl"
+    }]
+  }],
+  "suites": [{
+    "id": "8906aa1f-6b70-4dab-a038-ca14cd281be5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://open-eshop.stqa.ru/", "http://open-eshop.stqa.ru/oc-panel/auth/login/", "https://open-eshop.stqa.ru/oc-panel/Coupon?name=Recohjkl"],
+  "plugins": []
+}
